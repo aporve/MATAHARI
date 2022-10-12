@@ -30,7 +30,7 @@
 
  document.getElementById("ymFrameHolder").style.cssText = `
    bottom: 0 !important;
-   right: 0px !important;
+   right: 0px !important; // added
 `;
 // document.getElementById('ymDivCircle').style.bottom = '128px !important';
 // var observer = new MutationObserver(function(mutations) {
