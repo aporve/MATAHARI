@@ -16,6 +16,9 @@
 //     }
 // })();
 
+ document.getElementById("ymPluginDivContainerInitial").style.cssText = `
+  display: none; 
+`;
 document.getElementById('ymDivCircle').style.bottom = '128px !important';
 var observer = new MutationObserver(function(mutations) {
     document.getElementById('ymDivCircle').style.bottom = '128px !important'; 
