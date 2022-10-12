@@ -18,6 +18,7 @@
 
 document.getElementById('ymDivCircle').style.bottom = '128px !important';
 var observer = new MutationObserver(function(mutations) {
-    document.getElementById('ym-notification').style.bottom = '128px !important'; 
+    document.getElementById('ymDivCircle').style.bottom = '128px !important'; 
 });
-
+var target = document.getElementById('ymDivCircle');
+observer.observe(target, { attributes : true, attributeFilter : ['style'] });
