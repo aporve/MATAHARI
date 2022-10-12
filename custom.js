@@ -18,11 +18,10 @@
 
  document.getElementById("ymDivCircle").style.cssText = `
  bottom: 128px;
-height:500px;
-right: 0px !important;
-        display: flex !important;
-        background-color: #707070 !important;
-        border-radius: 0px !important;
+ right: 0px !important;
+ display: flex !important;
+ background-color: #707070 !important;
+ border-radius: 0px !important;
 `;
 document.getElementById('ymDivCircle').style.bottom = '128px !important';
 var observer = new MutationObserver(function(mutations) {
