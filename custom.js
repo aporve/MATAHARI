@@ -24,11 +24,6 @@
   border-radius: 0px !important;
 `;
 
- document.getElementById("chatDetails .back").style.cssText = `
-  display: block !important;
-  float: right  !important;
-`;
-
  document.getElementById("ym-notification").style.cssText = `
   bottom: 168px !important;
 `;
