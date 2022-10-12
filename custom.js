@@ -17,15 +17,29 @@
 // })();
 
  document.getElementById("ymDivCircle").style.cssText = `
- bottom: 128px;
- right: 0px !important;
- display: flex !important;
- background-color: #707070 !important;
- border-radius: 0px !important;
+  bottom: 128px;
+  right: 0px !important;
+  display: flex !important;
+  background-color: #707070 !important;
+  border-radius: 0px !important;
 `;
-document.getElementById('ymDivCircle').style.bottom = '128px !important';
-var observer = new MutationObserver(function(mutations) {
-    document.getElementById('ymDivCircle').style.bottom = '128px !important'; 
-});
-var target = document.getElementById('ymDivCircle');
-observer.observe(target, { attributes : true, attributeFilter : ['style'] });
+
+ document.getElementById("chatDetails .back").style.cssText = `
+  display: block !important;
+  float: right  !important;
+`;
+
+ document.getElementById("ym-notification").style.cssText = `
+  bottom: 168px !important;
+`;
+
+ document.getElementById("ymFrameHolder").style.cssText = `
+  bottom: 0 !important;
+        right: 20px !important;
+`;
+// document.getElementById('ymDivCircle').style.bottom = '128px !important';
+// var observer = new MutationObserver(function(mutations) {
+//     document.getElementById('ymDivCircle').style.bottom = '128px !important'; 
+// });
+// var target = document.getElementById('ymDivCircle');
+// observer.observe(target, { attributes : true, attributeFilter : ['style'] });
