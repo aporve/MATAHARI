@@ -16,6 +16,7 @@
 //     }
 // })();
 
+Window.YellowMessengerPlugin.init({bot: 'x1619794879539', host: 'https://app.yellow.ai', view: 'compact', floatingIcon: false})
  document.getElementById("ymDivCircle").style.cssText = `
   bottom: 128px;
   right: 0px !important;
