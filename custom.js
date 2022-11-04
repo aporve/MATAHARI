@@ -15,8 +15,8 @@
 //         console.error("failed while inserting to iFrame", e);
 //     }
 // })();
-
-Window.YellowMessengerPlugin.init({host: 'https://app.yellow.ai', view: 'compact', floatingIcon: false})
+ window.YellowMessengerPlugin.init({host: 'https://app.yellow.ai', view: 'compact', floatingIcon: false})
+ console.log(window, window.parent, window.top);
  document.getElementById("ymDivCircle").style.cssText = `
   bottom: 128px;
   right: 0px !important;
